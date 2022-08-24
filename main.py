@@ -14,6 +14,7 @@ def input_dot_data():
     b = Point(b_x, b_y)
     c = Point(c_x, c_y)
     validate_triangle(a, b, c)
+
     print_triangle_data(a, b, c)
 
 def validate_triangle(a, b, c):
